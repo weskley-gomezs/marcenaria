@@ -1,0 +1,7 @@
+{
+  "name": "Artesão & Co. - Marcenaria de Luxo",
+  "description": "Um site moderno e sofisticado para uma marcenaria premium, apresentando portfólio, serviços e um consultor de projetos alimentado por IA.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
