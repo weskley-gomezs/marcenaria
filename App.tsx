@@ -10,7 +10,6 @@ import ContactForm from './components/ContactForm.tsx';
 import Footer from './components/Footer.tsx';
 import Testimonials from './components/Testimonials.tsx';
 import ProjectsPage from './components/ProjectsPage.tsx';
-import AIConsultant from './components/AIConsultant.tsx';
 
 const App: React.FC = () => {
   const [view, setView] = useState<'home' | 'projects'>('home');
@@ -47,9 +46,6 @@ const App: React.FC = () => {
         <Portfolio onSeeAll={() => navigateTo('projects')} />
         
         <HowItWorks />
-
-        {/* Gemini-powered expert consultant */}
-        <AIConsultant />
 
         <ContactForm />
 

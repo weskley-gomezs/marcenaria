@@ -20,8 +20,6 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentView }) => {
   const navLinks = [
     { name: 'Início', id: 'home', href: '#inicio' },
     { name: 'Projetos', id: 'projects', href: '#projetos' },
-    // Link to the Gemini consultant section
-    { name: 'Consultor IA', id: 'home', href: '#consultor' },
     { name: 'Depoimentos', id: 'home', href: '#testimonials' },
     { name: 'Contato', id: 'home', href: '#contato' },
   ];
