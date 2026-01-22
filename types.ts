@@ -13,15 +13,16 @@ export interface PortfolioItem {
   image: string;
 }
 
-export interface ChatMessage {
-  role: 'user' | 'model';
-  text: string;
-}
-
 export enum WoodType {
   OAK = 'Carvalho',
   WALNUT = 'Nogueira',
   PINE = 'Pinus',
   CEDAR = 'Cedro',
   CHERRY = 'Cerejeira'
+}
+
+// Added ChatMessage interface to fix the import error in AIConsultant.tsx
+export interface ChatMessage {
+  role: 'user' | 'model';
+  text: string;
 }

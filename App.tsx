@@ -44,11 +44,12 @@ const App: React.FC = () => {
         
         <Testimonials />
 
-        <AIConsultant />
-
         <Portfolio onSeeAll={() => navigateTo('projects')} />
         
         <HowItWorks />
+
+        {/* Gemini-powered expert consultant */}
+        <AIConsultant />
 
         <ContactForm />
 
