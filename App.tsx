@@ -1,15 +1,16 @@
 
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import WhyUs from './components/WhyUs';
-import Services from './components/Services';
-import Portfolio from './components/Portfolio';
-import HowItWorks from './components/HowItWorks';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
-import Testimonials from './components/Testimonials';
-import ProjectsPage from './components/ProjectsPage';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import WhyUs from './components/WhyUs.tsx';
+import Services from './components/Services.tsx';
+import Portfolio from './components/Portfolio.tsx';
+import HowItWorks from './components/HowItWorks.tsx';
+import ContactForm from './components/ContactForm.tsx';
+import Footer from './components/Footer.tsx';
+import Testimonials from './components/Testimonials.tsx';
+import ProjectsPage from './components/ProjectsPage.tsx';
+import AIConsultant from './components/AIConsultant.tsx';
 
 const App: React.FC = () => {
   const [view, setView] = useState<'home' | 'projects'>('home');
@@ -42,6 +43,8 @@ const App: React.FC = () => {
         <Services />
         
         <Testimonials />
+
+        <AIConsultant />
 
         <Portfolio onSeeAll={() => navigateTo('projects')} />
         
